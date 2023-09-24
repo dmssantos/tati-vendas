@@ -1,0 +1,68 @@
+.bar {
+  background-color: darkgrey;
+  width: 100vw;
+  height: 80px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24;
+  font-weight: bold;
+}
+
+.bar span {
+  font-size: 24;
+  font-weight: bold;
+}
+
+.content {
+  margin: 60px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_produto {
+  display: flex;
+  flex-direction: column;
+
+  width: 500px;
+  height: 600px;
+}
+
+
+form div {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+form div label {
+  margin: 4px 0px;
+}
+
+#cor {
+  width: 150px;
+}
+
+#tamanho{
+  width: 80px;
+}
+
+#quantidade{
+  width: 80px;
+}
+
+form button {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+
+  margin: 20px;
+
+  align-self: center;
+
+}
