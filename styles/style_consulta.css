@@ -1,0 +1,57 @@
+.bar {
+  background-color: darkgrey;
+  width: 100vw;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24;
+  font-weight: bold;
+}
+.icon_voltar{
+  position: absolute;
+  left: 60px;
+}
+
+img {
+  width: 30px;
+}
+
+.bar span {
+  font-size: 24;
+  font-weight: bold;
+}
+
+.content {
+  margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.campo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+#select_consulta {
+  width: 100px;
+  margin: 10px;
+}
+
+#input_consulta {
+  width: 200px;
+  margin: 10px;
+  margin-right: 2px;
+}
+
+#icon_consulta {
+  width: 20px;
+}
