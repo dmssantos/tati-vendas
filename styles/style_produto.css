@@ -12,10 +12,13 @@
   font-weight: bold;
 }
 
-.bar img {
+.icon_voltar {
+  position: absolute;
+  left: 60px;
+}
+
+img {
   width: 30px;
-  position: relative;
-  left: -500px;
 }
 
 .bar span {

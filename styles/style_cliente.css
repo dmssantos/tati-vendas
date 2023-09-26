@@ -11,11 +11,13 @@
   font-size: 24;
   font-weight: bold;
 }
+.icon_voltar{
+  position: absolute;
+  left: 60px;
+}
 
-.bar img {
+img {
   width: 30px;
-  position: relative;
-  left: -500px;
 }
 
 .bar span {

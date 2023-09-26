@@ -5,21 +5,21 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- reset -->
-  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="/styles/reset.css">
   <!-- css -->
-  <link rel="stylesheet" href="style_produto.css">
+  <link rel="stylesheet" href="/styles/style_adicionar_encomenda.css">
   <title>tati_vendas</title>
 </head>
 
 <body>
   <div class="bar">
-    <a href="index.html">
-      <img src="icons/voltar.svg" alt="voltar">
+    <a class="icon_voltar" href="/pages/encomenda.html">
+      <img src="/icons/voltar.svg" alt="voltar">
     </a>
-    <span>CADASTRO DE PRODUTOS</span>
+    <span>ADICIONAR ENCOMENDA</span>
   </div>
   <div class="content">
-    <form action="" class="form_produto">
+    <form action="" class="form_adicionar_venda">
       <div>
         <label for="produto">PRODUTO</label>
         <input type="text" id="produto" name="produto">
@@ -39,18 +39,22 @@
         </select>
       </div>
       <div>
-        <label for="valor_unitario">VALOR UNITARIO</label>
-        <input type="number" id="valor_unitario" name="valor_unitario">
-      </div>
-      <div>
         <label for="quantidade">QUANTIDADE</label>
         <input type="number" id="quantidade" name="quantidade">
       </div>
       <div>
-        <label for="descricao">DESCRIÇÃO</label>
-        <textarea name="descricao" id="descricao" cols="45" rows="5"></textarea>
+        <label for="preco_unitario">PREÇO UNITÁRIO</label>
+        <input type="number" id="preco_unitario" name="preco_unitario">
       </div>
-      <button type="submit">CADASTRAR</button>
+      <div>
+        <label for="total">TOTAL</label>
+        <input type="number" id="total" name="total">
+      </div>
+      <div>
+        <label for="cliente">FORNECEDOR</label>
+        <input type="text" id="cliente" name="cliente">
+      </div>
+      <button type="submit">OK</button>
     </form>
   </div>
 </body>
