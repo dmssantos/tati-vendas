@@ -54,6 +54,10 @@ form div {
   margin: 4px 0px;
 }
 
+#fornecedor {
+  width: 300px;
+}
+
 #produto {
   width: 300px;
 }
@@ -70,16 +74,12 @@ form div {
   width: 150px;
 }
 
-#preco_unitario {
+#preco {
   width: 150px;
 }
 
 #total {
   width: 150px;
-}
-
-#cliente {
-  width: 300px;
 }
 
 form button {
