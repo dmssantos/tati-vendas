@@ -4,7 +4,7 @@ import { db } from "./firebase.js";
 
 async function cadastrarProdutos() {
   const produto = {
-    produto: document.getElementById("produto").value,
+    nome: document.getElementById("nome").value,
     cor: document.getElementById("cor").value,
     tamanho: document.getElementById("tamanho").value,
     preco: document.getElementById("preco").value,
@@ -14,13 +14,13 @@ async function cadastrarProdutos() {
   //colocar cliente no database.
   try {
     await addDoc(collection(db, "produtos"), produto);
-    alert(`Produto ${produto.produto} cadastrado com sucesso!`);
+    alert(`Nome ${produto.nome} cadastrado com sucesso!`);
   } catch (e) {
     console.error("Error adding document: ", e);
     alert("Não foi possível cadastrar! , Erro: ", e)
   }
 
-  document.getElementById("produto").value = "";
+  document.getElementById("nome").value = "";
   document.getElementById("cor").value = "";
   document.getElementById("tamanho").value = "";
   document.getElementById("preco").value = "";
