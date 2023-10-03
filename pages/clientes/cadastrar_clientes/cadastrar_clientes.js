@@ -1,5 +1,5 @@
 import {collection, addDoc } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-firestore.js";
-import {db} from "./firebase.js";
+import {db} from "../../../scripts/firebase.js";
 
 
 async function cadastrarClientes() {
