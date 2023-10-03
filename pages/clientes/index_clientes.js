@@ -4,9 +4,17 @@ import { db } from "../../scripts/firebase.js";
 
 
 function construtor_lista(cliente) {
-  console.log(cliente)
-  let tabela = document.getElementById("tabela").innerHTML
-  console.log(tabela)
+  let lista = document.getElementById("content").innerHTML
+  lista +=
+    `
+  <ul>
+      <li class=" lista_content nome">${cliente.nome}</li>
+      <li class=" lista_content contato">${cliente.contato}</li>
+      <li class=" lista_content endereco">${cliente.endereco}</li>
+      <li class=" lista_content descricao">${cliente.descricao}</li>
+    </ul>
+  `
+  document.getElementById("content").innerHTML = lista;
 }
 
 const clientesData = await getDocs(collection(db, "clientes"));

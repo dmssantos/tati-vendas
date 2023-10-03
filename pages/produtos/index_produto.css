@@ -24,13 +24,12 @@ img {
 
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
   justify-content: center;
 }
 
 .content ul {
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
 }
 
 .lista_titulo {
@@ -44,18 +43,26 @@ img {
   margin-bottom: 10px;
 }
 
-.nome{
-  width: 200px;
-}
-
-.contato{
-  width: 150px;
-}
-
-.endereco{
+.nome {
   width: 300px;
 }
 
-.descricao{
+.cor {
+  width: 120px;
+}
+
+.tamanho {
+  width: 60px;
+}
+
+.preco {
+  width: 80px;
+}
+
+.quantidade {
+  width: 80px;
+}
+
+.descricao {
   width: 500px;
 }
