@@ -1,0 +1,72 @@
+.bar {
+  background-color: darkgrey;
+  width: 100vw;
+  height: 80px;
+  padding: 0px 80px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+img {
+  width: 30px;
+}
+
+.bar span {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+.content {
+  margin: 80px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.lista_titulo {
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.lista_content {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.cliente {
+  width: 200px;
+}
+
+.produto {
+  width: 200px;
+}
+
+.cor {
+  width: 120px;
+}
+
+.tamanho {
+  width: 60px;
+}
+
+.preco {
+  width: 80px;
+}
+
+.quantidade {
+  width: 80px;
+}
+
+.status {
+  width: 500px;
+}

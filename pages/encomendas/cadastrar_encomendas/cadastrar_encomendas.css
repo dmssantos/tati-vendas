@@ -1,0 +1,89 @@
+.bar {
+  background-color: darkgrey;
+  width: 100vw;
+  height: 80px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 24;
+  font-weight: bold;
+}
+
+.icon_voltar {
+  position: absolute;
+  left: 60px;
+}
+
+img {
+  width: 30px;
+}
+
+.bar span {
+  font-size: 24;
+  font-weight: bold;
+}
+
+.content {
+  margin: 20px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.form_produto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  width: 500px;
+}
+
+
+form div {
+  margin: 10px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form_produto label {
+  margin: 4px 0px;
+}
+
+#fornecedor {
+  width: 250px;
+}
+
+#produto {
+  width: 250px;
+}
+
+#cor {
+  width: 150px;
+}
+
+#tamanho {
+  width: 80px;
+}
+
+#quantidade {
+  width: 100px;
+}
+
+#preco {
+  width: 100px;
+}
+
+form button {
+  width: 200px;
+  height: 40px;
+  border-radius: 8px;
+
+  margin: 20px;
+
+  align-self: center;
+}

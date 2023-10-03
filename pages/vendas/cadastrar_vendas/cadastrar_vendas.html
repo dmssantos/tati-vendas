@@ -7,28 +7,28 @@
   <!-- reset -->
   <link rel="stylesheet" href="/styles/reset.css">
   <!-- css -->
-  <link rel="stylesheet" href="/styles/style_adicionar_venda.css">
+  <link rel="stylesheet" href="cadastrar_vendas.css">
   <!-- scripts -->
-  <script type="module" src="/scripts//cadastrar_vendas.js" defer></script>
-  <title>tati_vendas</title>
+  <script type="module" src="cadastrar_vendas.js" defer></script>
+  <title>tati vendas/cadastro de vendas</title>
 </head>
 
 <body>
   <div class="bar">
-    <a class="icon_voltar" href="/pages/venda.html">
+    <a class="icon_voltar" href="../index_vendas.html">
       <img src="/icons/voltar.svg" alt="voltar">
     </a>
-    <span>ADICIONAR VENDA</span>
+    <span>CADASTRO DE VENDAS</span>
   </div>
   <div class="content">
-    <form action="" class="form_adicionar_venda">
+    <form action="" class="form_produto">
       <div>
-        <label for="nome">NOME</label>
-        <input type="text" id="nome" name="nome">
+        <label for="cliente">CLIENTE</label>
+        <input type="text" id="cliente" name="cliente" />
       </div>
       <div>
         <label for="produto">PRODUTO</label>
-        <input type="text" id="produto" name="produto">
+        <input type="text" id="produto" name="produto" />
       </div>
       <div>
         <label for="cor">COR</label>
@@ -39,14 +39,18 @@
         <input type="text" name="tamanho" id="tamanho" />
       </div>
       <div>
-        <label for="quantidade">QUANTIDADE</label>
-        <input type="text" id="quantidade" name="quantidade">
+        <label for="preco">PRECO</label>
+        <input type="number" id="preco" name="preco" />
       </div>
       <div>
-        <label for="preco">PREÇO</label>
-        <input type="text" id="preco" name="preco">
+        <label for="quantidade">QUANTIDADE</label>
+        <input type="text" id="quantidade" name="quantidade" />
       </div>
-      <button id="btn_vender">Vender</button>
+      <div>
+        <label for="status">STATUS</label>
+        <textarea name="status" id="status" cols="45" rows="5"></textarea>
+      </div>
+      <button id="btn_cadastrar">CADASTRAR</button>
     </form>
   </div>
 </body>
