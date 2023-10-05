@@ -11,7 +11,7 @@ btnLogin.addEventListener('click', (event) => {
     alert("Senha Inválida")
   } else {
     //enviar para outra tela.
-    window.location.href = 'menu.html'
+    window.location.href = '/menu/menu.html'
   }
 })
 
