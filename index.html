@@ -1,58 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- reset -->
-  <link rel="stylesheet" href="./styles/reset.css">
-  <!-- css -->
-  <link rel="stylesheet" href="./styles/index.css">
-  <title>tati_vendas</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <!-- style -->
+  <link rel="stylesheet" href="styles/index.css">
+  <!-- scripts -->
+  <script src="scripts/login.js" defer></script>
+  <title>tati</title>
 </head>
 
 <body>
-  <div class="bar">
-    <span>INICIO</span>
-  </div>
   <div class="content">
-
-    <!-- CLIENTES -->
-    <a href="./pages/clientes/index_clientes.html" class="main_btn">
-      <img src="./icons/clientes.svg" alt="clientes">
-      <span>CLIENTES</span>
-    </a>
-
-    <!-- FORNECEDORES -->
-    <a href="./pages/fornecedores/index_fornecedores.html" class="main_btn">
-      <img src="./icons/fornecedores.svg" alt="fornecedores">
-      <span>FORNECEDORES</span>
-    </a>
-
-    <!-- PRODUTOS -->
-    <a href="./pages/produtos/index_produto.html" class="main_btn">
-      <img src="./icons/produtos.svg" alt="produtos">
-      <span>PRODUTOS</span>
-    </a>
-
-    <!-- VENDAS -->
-    <a href="./pages/vendas/index_vendas.html" class="main_btn">
-      <img src="./icons/vender.svg" alt="vendas">
-      <span>VENDAS</span>
-    </a>
-
-    <!-- ENCOMENDAS -->
-    <a href="./pages/encomendas/index_encomendas.html" class="main_btn">
-      <img src="./icons/encomendar.svg" alt="encomendas">
-      <span>ENCOMENDAS</span>
-    </a>
-
-    <!-- CONSULTA -->
-    <a href="#" class="main_btn">
-      <img src="./icons/consulta.svg" alt="consulta">
-      <span>CONSULTA</span>
-    </a>
-
+    <form action="">
+      <p>
+        <label for="login_name">Login</label>
+        <input type="text" id="login_name" name="login_name">
+      </p>
+      <p>
+        <label for="password">Senha</label>
+        <input type="password" id="password" name="password">
+      </p>
+      <p>
+        <button id="btn_login">Logar</button>
+      </p>
+    </form>
   </div>
 </body>
 
