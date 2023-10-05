@@ -7,7 +7,7 @@ btnLogin.addEventListener('click', (event) => {
 
   if (inputLogin !== "tatiane") {
     alert("login Inválido!");
-  } else if (inputPassword !== "1920") {
+  } else if (inputPassword.toString() !== "1920") {
     alert("Senha Inválida")
   } else {
     //enviar para outra tela.
